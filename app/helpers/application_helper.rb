@@ -14,8 +14,8 @@ module ApplicationHelper
     extensions = {
       #will parse links without need of enclosing them
       autolink:           true,
-      superscript:        true
-      disable_indented_code_blocks: true;
+      superscript:        true,
+      disable_indented_code_blocks: true
     }
 
     renderer = Redcarpet::Render::HTML.new(options)

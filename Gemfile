@@ -19,6 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'figaro'
+gem 'devise'
 gem 'bootstrap-sass'
 gem 'redcarpet', '~> 3.0.0'
 
