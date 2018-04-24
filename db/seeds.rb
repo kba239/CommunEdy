@@ -1,7 +1,7 @@
 require 'random_data'
 
 #Create Users
-50.times do
+5.times do
   User.create!(
     email:  RandomData.random_email,
     password:   RandomData.random_sentence
@@ -32,6 +32,7 @@ posts = Post.all
 # Create Comments
 100.times do
   Comment.create!(
+    user: users.sample,
     post: posts.sample,
     body: RandomData.random_paragraph
   )
